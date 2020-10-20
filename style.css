@@ -7,7 +7,7 @@ body {
   letter-spacing: 0.06em;
 }
 header {
-  height: 120px;
+  
   color: #545454;
 }
 a {
@@ -287,7 +287,13 @@ nav a:first-child {
   height: 234px;
 }
 
-
+.headPets{
+  flex-direction: row;
+  position: fixed;
+  background: #FFFFFF;
+  height: 120px;
+  width: inherit;
+}
 .headPets h4 {
   color: #545454;
 }
